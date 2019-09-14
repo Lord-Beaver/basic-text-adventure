@@ -1,0 +1,68 @@
+html {
+color: #737373;
+background-color: #1a1a1a;
+overflow-y:scroll;
+
+}
+input {
+background-color:#737373;
+border-color: #1a1a1a;
+color: #1a1a1a;
+height:30px;
+width:200px;
+font-size: 15px;
+font-family: monospace;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #e68a00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.conversations {
+height: 140px;
+width: 650px;
+background-color: #000000;
+color: GREEN;
+font-size: 20px;
+font-family: Arial;
+
+}
+
+button {
+background-color: #000000;
+color: GREEN;
+border: 0px;
+font-size: 20px;
+font-family: Arial;
+display: block;
+}
+
+::placeholder {
+color: #1a1a1a;
+}
+
+div.gt {
+height:280px;
+width:650px;
+overflow-y:scroll;
+overflow-x:hidden;
+box-sizing: border-box;
+padding-bottom: 5px;
+font-size: 15px;
+font-family: monospace;
+background-color: #333;
+color: #d9d9d9;
+
+}
